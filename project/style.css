@@ -1,0 +1,120 @@
+body{
+    background-color: #352f5b;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-image: linear-gradient(to top,#352f5b,rgb(255,255,255,.19));
+}
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.task{
+    
+    margin-bottom: 30px;
+    width: 70vm;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+
+    background: rgba( 172, 214, 221, 0.25 );
+box-shadow: 0 8px 32px 0 rgb( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+border-bottom: 3px solid white;
+
+}
+.icon{
+    font-size: 24px;
+}
+.icon:hover{
+    font-size: 26px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+p{
+    font-size: 22px;
+}
+.icon-svg,.icon-bin{
+
+    opacity: .4;
+}
+.icon-svg:hover{
+    opacity: 1;
+    color: orange;
+}
+.icon-svg{
+    font-size: 27px;
+    margin-right: 10px;
+}
+.icon-bin:hover{
+    color: rgb(255,242, 217);
+    font-size: 29px;
+    opacity: 1;
+}
+
+.icon-smile{
+    color:rgb(247,219, 97);
+    margin-right: 10px;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+form{
+    text-align: center;
+    margin-bottom: 200px;
+}
+input{
+    padding: 10px 20px;
+    border-radius: 6px;
+    width: 35vm;
+    font-size: 21px;
+    text-align: center;
+}
+.do{
+    background-color: #352f5b;
+    border: 2px solid white;
+    color: white;
+    padding: auto;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.done{
+  display: flex;
+  justify-content: center;
+}
+.dn{
+    display: none;
+}
+.icon-heart{
+    font-size: 23px;
+    color: rgb(255,102, 102);
+}
+.icon-heart:hover{
+    font-size: 25px;
+    transition: .2;
+}
+.finish{
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+}
+.orange{
+    color: orange;
+    opacity: 1;
+}
